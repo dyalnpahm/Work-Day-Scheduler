@@ -13,7 +13,11 @@ I learnt how to use JQuery in order to target past, present and future elements 
 N/A
 
 ## Usage
+To use app, enter an activity or TODO list into the certain hour the user wants to complete activity, then press save.
+The grey color shows time that has past, the red color displays time the hour that is present, the green shows the future hours to come.
+![alt text](./assets/images/Work.PNG)
 
+In the screenshot above, all boxes are grey as the time is 7pm and the hours only reach 5pm. This means all the hours in the day scheduler has been completed.
 
 ## Credits
 
