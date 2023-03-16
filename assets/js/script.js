@@ -19,9 +19,12 @@ $(document).ready(function () {
 
         // loop over time blocks
         $(".time-block").each(function () {
-            var blockTime = dayjs($(this).attr("id").split("hour")[1]);
+            var blockTime = $(this).attr("id").split("hour")[1];
+           // var blockTime = dayjs($(this).attr("id").split("hour")[1]);
 
             // To check the time and add the classes for background indicators
+            console.log(blockTime)
+            //console.log(timeNow)
             if (blockTime < timeNow) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
